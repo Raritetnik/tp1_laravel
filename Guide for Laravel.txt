@@ -1,0 +1,2 @@
+php artisan serve -> Start the server Laravel
+composer update -> Update a clone of the project

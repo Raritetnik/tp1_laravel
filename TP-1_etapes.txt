@@ -1,0 +1,36 @@
+1.
+- composer global require "laravel/installer"
+- composer create-project --prefer-dist laravel/laravel tp1_laravel "8.*"
+
+2.
+- php artisan make:model Etudient --migration
+- php artisan make:model Ville --migration
+
+php artisan make:factory VilleFactory -m Ville
+php artisan make:factory EtudientFactory –m Etudient
+
+3. php artisan migrate
+
+4. composer dumpautoload
+php artisan tinker
+Ville::factory()->count(15)->create();
+
+5. composer dumpautoload
+php artisan tinker
+App\Models\Etudient::factory()->count(100)->create();
+
+6.
+- php artisan make:controller EtudientControler --resource
+- php artisan make:controller VilleController --resource
+
+DONE! 7.
+DONE! 8.
+DONE! 9.
+DONE! 10.
+DONE! 11.
+DONE! 12.
+DONE! 13.
+PROCESS... 14.Publier votre projet dans GitHub (publique) et envoyer le lien dans la
+documentation. (2 pts)
+PROCESS... 15.Enregistrez le projet avec une extension ZIP et ajouter la documentation dans
+la racine (1pt)
